@@ -1,0 +1,26 @@
+feat: nieuwe feature
+fix: bugfix
+docs: documentatie
+chore: onderhoud
+refactor: herstructurering
+perf: performance
+test: tests
+
+
+| Bestand / Wijziging                             | Commit Message (Conventional Commit)                             |
+| ----------------------------------------------- | ---------------------------------------------------------------- |
+| `LICENSE` toegevoegd                            | `docs: add LICENSE file (MIT)`                                   |
+| `README.md` verwijzing naar LICENSE toegevoegd  | `docs: link LICENSE in README`                                   |
+| `.gitignore` toegevoegd                         | `chore: add .gitignore for node, build, env and IDE files`       |
+| `.github/CODEOWNERS` toegevoegd                 | `chore: add CODEOWNERS for automatic PR reviews`                 |
+| `.github/ISSUE_TEMPLATE/bug_report.yml` gemaakt | `docs: add issue template for bug reports`                       |
+| `.github/PULL_REQUEST_TEMPLATE.md` gemaakt      | `docs: add pull request template`                                |
+| `.prettierrc` toegevoegd                        | `chore: add Prettier config for code formatting`                 |
+| `.yamllint` toegevoegd                          | `chore: add yamllint config for YAML validation`                 |
+| `.editorconfig` toegevoegd                      | `chore: add editorconfig for consistent code style`              |
+| `.gitattributes` toegevoegd                     | `chore: add .gitattributes for line endings and binary handling` |
+| `CONTRIBUTING.md` toegevoegd                    | `docs: add contributing guidelines`                              |
+| `SECURITY.md` toegevoegd                        | `docs: add security policy`                                      |
+| `SUPPORT.md` toegevoegd (optioneel)             | `docs: add support guidelines`                                   |
+| `CHANGELOG.md` toegevoegd                       | `docs: add initial changelog (Keep a Changelog format)`          |
+| Configuratie voor commitlint + husky toegevoegd | `chore: add commitlint and husky for commit message validation`  |
