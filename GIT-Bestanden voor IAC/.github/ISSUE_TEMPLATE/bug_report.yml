@@ -1,6 +1,6 @@
 name: Bug report
 description: Meld een fout
-title: "[BUG] <korte titel>"
+title: '[BUG] <korte titel>'
 labels: [bug]
 body:
   - type: textarea
