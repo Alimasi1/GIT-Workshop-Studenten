@@ -16,3 +16,40 @@ Thumbs.db
 # Env
 .env
 .env.local
+
+# ---- Terraform ----
+# Lokale .terraform folders (providers en plugins)
+**/.terraform/*
+**/.terraform.lock.hcl
+
+# Terraform state-bestanden (bevatten gevoelige data)
+*.tfstate
+*.tfstate.*
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terraform plan-output
+*.tfplan
+
+# ---- Logs & tijdelijke bestanden ----
+*.log
+*.bak
+*.tmp
+
+# ---- OS & editor-specifiek ----
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# ---- WSL & Linux cache ----
+*~
+.cache/
+*.swp
+
+# ---- IDE specifieke bestanden ----
+.vscode/
+.idea/
+*.code-workspace
