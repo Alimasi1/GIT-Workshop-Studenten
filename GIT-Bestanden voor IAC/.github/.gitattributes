@@ -1,0 +1,12 @@
+# Forceer LF line endings in de repo
+* text=auto eol=lf
+
+# Markeer binaire bestanden (geen diffs in PR’s)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.pdf binary
+
+# (Optioneel) Zorg dat GitHub docs/ ziet als documentatie
+docs/** linguist-documentation
